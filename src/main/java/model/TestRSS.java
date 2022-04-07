@@ -18,7 +18,7 @@ public class TestRSS {
 	
 	public String loadFileXML() {
 		
-		String reponse=" ";
+		String reponse="";
 		try{
 		   Resource resource = new DefaultResourceLoader().getResource("classpath:xml/item.xml");
 		   InputStream in = resource.getInputStream();
