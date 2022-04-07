@@ -36,6 +36,5 @@ public class TestRSS {
 			reponse = e.getMessage();
 		}
 		return reponse;
-	}
-		
+	}	
 }
